@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url(/images/winter-night-landscape-with-houses-christmas-tree-frozen-lake-vector-drawing-illustration-flat-cartoon-style-christmas-card_273525-47.jpeg);
+
+    background-position: center center;
+
+}
+
+canvas {
+    z-index: -1;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+.container {
+    width: 35.25em;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 30%;
+    margin: lem auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    background-color: #1c2e16;
+    border-radius: 0.5em;
+   margin-top: 100px;
+}
+
+.santa {
+    width: 95%;
+    height: 41.87em;
+    position: relative;
+    margin: 1em auto;
+    display: grid;
+    place-items: center;
+    background-color: #ffedb8;
+    overflow: hidden;
+
+}
+
+.santa-full img {
+    position: relative;
+    height: 18.75em;
+    bottom: -1.87em;
+}
+
+.draggables {
+    margin-top: 50px;
+    padding: 1em 0;
+    width: 51.25em;
+    height: 51.25em;
+    position: relative;
+    /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
+  background-image: url(/images/3162.jpg);
+    border-radius: 20px;
+
+}
+
+.draggables div {
+    position: relative;
+}
+
+[draggables] {
+    cursor: move;
+}
+
+img {
+    position: absolute;
+}
+
+.glasses {
+    height: 9em;
+    z-index: 1;
+}
+
+.eyes {
+    height: 3.75em;
+}
+
+.mouth {
+    height: 14.12em;
+    left: -2%;
+}
+
+.cap {
+    height: 8em;
+}
+
+.shoe {
+    height: 7em;
+}
+
+/* //--- drag 1 */
+#g-1 {
+    left: 3.93em;
+}
+
+#eye-1 {
+    left: 5.93em;
+}
+
+#mouth-1 {
+    left: 1.93em;
+    top: -0.6em;
+}
+
+#cap-1 {
+    left: 1.93em;
+}
+
+#shoe-1 {
+    left: 1em;
+    top: 0.6em;
+}
+
+#shoe-2 {
+    left: 12em;
+    top: 0.6em;
+}
+
+/* //--- drag 2 */
+#g2 {
+    left: 18.93em;
+    top: -1.5em;
+}
+
+#eye-2 {
+    left: 20.5em;
+}
+
+#mouth-2 {
+    left: 15.93em;
+    top: -1.5em;
+}
+
+#cap-2 {
+    left: 17.5em;
+}
+
+#shoe-3 {
+    left: 24em;
+}
+
+#shoe-4 {
+    left: 34em;
+}
+
+/* //--- drag 3 */
+#g3 {
+    left: 32.93em;
+    top: -2em;
+}
+
+#eye-3 {
+    left: 35.5em;
+}
+
+#mouth-3 {
+    left: 30.93em;
+    top: -2em;
+}
+
+#cap-3 {
+    left: 32.5em;
+}
